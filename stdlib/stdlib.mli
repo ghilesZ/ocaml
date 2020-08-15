@@ -31,7 +31,7 @@ external raise : exn -> 'a = "%raise"
 (** Raise the given exception value *)
 
 external raise_notrace : exn -> 'a = "%raise_notrace"
-(** A faster version [raise] which does not record the backtrace.
+(** A faster version of [raise] which does not record the backtrace.
     @since 4.02.0
 *)
 
